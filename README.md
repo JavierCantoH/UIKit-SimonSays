@@ -25,6 +25,6 @@ To use the UIKit-SimonSays project in your own iOS app, simply copy the `SimonSa
 
 The UIKit-SimonSays project was created by [Javier Canto](https://github.com/JavierCantoH). The project was inspired by the Simon Says game and the Swift 4.2 and iOS 12 Development: Learn to Build Apps course on Udemy.
 
-License 📜
+## License 📜
 
 The UIKit-SimonSays project is licensed under the MIT License. Feel free to use this code in your own projects, but please give credit to the original author.
