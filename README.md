@@ -71,7 +71,7 @@ extension ViewController: GameManagerDelegate {
 
 Credits 🙌
 
-The UIKit-SimonSays project was created by Javier Canto Hernández. The project was inspired by the Simon Says game and the Swift 4.2 and iOS 12 Development: Learn to Build Apps course on Udemy.
+The UIKit-SimonSays project was created by Javier Canto. The project was inspired by the Simon Says game and the Swift 4.2 and iOS 12 Development: Learn to Build Apps course on Udemy.
 
 License 📜
 
