@@ -21,57 +21,9 @@ To get started with the UIKit-SimonSays project, simply clone this repository an
 
 To use the UIKit-SimonSays project in your own iOS app, simply copy the `SimonSays` folder into your project and add the necessary files to your Xcode project. You can then customize the appearance and behavior of the game using UIKit and Swift. 📝🎨
 
-```swift
-import UIKit
+## Credits 🙌
 
-class ViewController: UIViewController {
-
-  @IBOutlet weak var scoreLabel: UILabel!
-  @IBOutlet weak var roundLabel: UILabel!
-  @IBOutlet weak var colorButtons: [UIButton]!
-
-  var gameManager = GameManager()
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Set up the game
-    gameManager.delegate = self
-    gameManager.startGame()
-  }
-
-  @IBAction func colorButtonTapped(_ sender: UIButton) {
-    // Handle button taps
-    gameManager.handleButtonTap(sender)
-  }
-
-}
-
-extension ViewController: GameManagerDelegate {
-
-  func updateScore(_ score: Int) {
-    // Update the score label
-    scoreLabel.text = "Score: \(score)"
-  }
-
-  func updateRound(_ round: Int) {
-    // Update the round label
-    roundLabel.text = "Round: \(round)"
-  }
-
-  func gameOver() {
-    // Handle game over
-    let alert = UIAlertController(title: "Game Over", message: "You lost!", preferredStyle: .alert)
-    let action = UIAlertAction(title: "OK", style: .default, handler: nil)
-    alert.addAction(action)
-    present(alert, animated: true, completion: nil)
-  }
-
-}
-```
-
-Credits 🙌
-
-The UIKit-SimonSays project was created by Javier Canto. The project was inspired by the Simon Says game and the Swift 4.2 and iOS 12 Development: Learn to Build Apps course on Udemy.
+The UIKit-SimonSays project was created by [Javier Canto](https://github.com/JavierCantoH). The project was inspired by the Simon Says game and the Swift 4.2 and iOS 12 Development: Learn to Build Apps course on Udemy.
 
 License 📜
 
